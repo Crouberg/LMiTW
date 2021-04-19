@@ -9,9 +9,25 @@
 /**
  * 
  */
+
+class UCameraComponent;
+
 UCLASS()
 class LMITW_API ALMPlayerCharacter : public ALMBaseCharacter
 {
 	GENERATED_BODY()
+
+public:
+
+	ALMPlayerCharacter();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character | Camera")
+	UCameraComponent* CameraComponent;
 	
+public:
+
+protected:
+
+	UFUNCTION(BlueprintPure, Category = "Character | Movement")
+	virtual bool CanMove();
 };

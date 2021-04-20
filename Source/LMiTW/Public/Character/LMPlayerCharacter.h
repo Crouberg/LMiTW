@@ -28,6 +28,5 @@ public:
 
 protected:
 
-	UFUNCTION(BlueprintPure, Category = "Character | Movement")
-	virtual bool CanMove();
+
 };

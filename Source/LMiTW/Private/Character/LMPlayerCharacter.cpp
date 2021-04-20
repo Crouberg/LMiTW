@@ -11,7 +11,4 @@ ALMPlayerCharacter::ALMPlayerCharacter()
     CameraComponent->SetupAttachment(GetRootComponent());
 }
 
-bool ALMPlayerCharacter::CanMove()
-{
-    return true;
-}
+

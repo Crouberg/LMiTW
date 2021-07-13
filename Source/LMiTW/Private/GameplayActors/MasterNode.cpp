@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "MasterNode.h"
+#include "GameplayActors/MasterNode.h"
 
 // Sets default values
 AMasterNode::AMasterNode()

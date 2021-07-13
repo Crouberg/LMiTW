@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "MasterSwitcherStatusSetter.h"
+#include "GameplayActors/MasterSwitcherStatusSetter.h"
 
 // Sets default values
 AMasterSwitcherStatusSetter::AMasterSwitcherStatusSetter()

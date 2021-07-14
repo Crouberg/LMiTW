@@ -21,8 +21,6 @@ public:
 
 	ALMPlayerCharacter();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character | Camera")
-	UCameraComponent* CameraComponent;
 	
 public:
 

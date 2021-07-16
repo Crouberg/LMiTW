@@ -7,8 +7,6 @@
 
 ALMPlayerCharacter::ALMPlayerCharacter()
 {
-    CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-    CameraComponent->SetupAttachment(GetRootComponent());
 }
 
 

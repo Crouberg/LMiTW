@@ -26,4 +26,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	/** Used for calling sphere traces from UObjects */
+	UFUNCTION(BlueprintCallable, Category = "Character")
+	void SphereTraceToTarget(FHitResult& OutHit, const FVector& Start, const FVector& End, float Radius, const TArray<AActor*>& ActorsToIgnore);
+
+
 };

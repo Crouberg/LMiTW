@@ -3,12 +3,16 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
 #include "Character/LMBaseCharacter.h"
+
 #include "LMPlayerCharacter.generated.h"
 
 /**
  * 
  */
+
+
 
 class UCameraComponent;
 
@@ -23,6 +27,7 @@ public:
 
 	
 public:
+
 
 protected:
 

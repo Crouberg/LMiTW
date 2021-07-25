@@ -4,3 +4,4 @@
 
 #include "CoreMinimal.h"
 
+#define CHANNEL_COMBAT ETraceTypeQuery::TraceTypeQuery3

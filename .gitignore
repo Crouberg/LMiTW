@@ -77,10 +77,10 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-*.uasset
-*.umap
 Content/*
-!Content/LMiTW/**
+!Content/LMiTW/
+
+Config/*
 
 ### UnrealEngine Patch ###
 # Don't ignore icon and splash images for mobile app
